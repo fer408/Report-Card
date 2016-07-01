@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Report Card</string>
+
+    //TextView Strings
+    <string name="cs_string">Computer Science</string>
+    <string name="philosophy_string">Philosophy</string>
+    <string name="history_string">History</string>
+    <string name="math">Math</string>
+    <string name="literature_string">Literature</string>
+
+
+</resources>

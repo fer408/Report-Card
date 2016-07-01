@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cs">#303F9F</color>
+    <color name="history">#38e702</color>
+    <color name="philosophy">#ea0202</color>
+    <color name="math">#e79f0e</color>
+    <color name="art">#b312ed</color>
+    <color name="literature">#ffffff</color>
+
+    <color name="text_color">#000000</color>
+</resources>
