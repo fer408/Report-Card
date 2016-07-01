@@ -31,11 +31,9 @@ public class Grade {
         return mTask;
     }
 
-    /**
-     * Get the Miwok translation of the word.
-     */
-    public String getGrade() {
-        return mGrade;
-    }
 
+    public String toString() {
+        return mGrade;
+
+}
 }

@@ -38,20 +38,17 @@ public class GradeAdapter extends ArrayAdapter<Grade>  {
                     R.layout.item_list, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
         Grade currentGrade = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID miwok_text_view.
+
         TextView gradeTextView = (TextView) listItemView.findViewById(R.id.task_text_view);
-        // Get the Miwok translation from the currentWord object and set this text on
-        // the Miwok TextView.
+
         gradeTextView.setText(currentGrade.getTask());
 
-        // Find the TextView in the list_item.xml layout with the ID default_text_view.
+
         TextView taskTextView = (TextView) listItemView.findViewById(R.id.grade_text_view);
-        // Get the default translation from the currentWord object and set this text on
-        // the default TextView.
-        taskTextView.setText(currentGrade.getGrade());
+
+        taskTextView.setText(currentGrade.toString());
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView.
